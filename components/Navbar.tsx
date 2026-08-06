@@ -28,7 +28,7 @@ export default function Navbar() {
             className="text-2xl font-black tracking-wide text-white"
           >
             Aishwarya
-            <span className="text-cyan-400"> </span>
+            <span className="text-cyan-400"> Mohanraj </span>
           </a>
 
           {/* Desktop Menu */}
