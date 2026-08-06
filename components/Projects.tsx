@@ -224,7 +224,7 @@ export default function Projects() {
 <div className="group overflow-hidden rounded-3xl bg-slate-900/70 backdrop-blur-xl border border-slate-800 hover:border-cyan-300 hover:shadow-[0_0_40px_rgba(34,211,238,0.25)] hover:-translate-y-2 transition-all duration-500">
 
   <Image
-    src="/images/ETL workflow.png"
+    src="/images/ETL Workflow.png"
     alt="Workflow"
     width={700}
     height={500}
