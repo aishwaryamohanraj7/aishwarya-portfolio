@@ -25,7 +25,7 @@ export default function Navbar() {
 
           <a
             href="#"
-            className="text-2xl font-black tracking-wide text-white"
+            className="text-2xl font-black tracking-wide text-cyan-400"
           >
             Aishwarya
             <span className="text-cyan-400"> Mohanraj </span>
