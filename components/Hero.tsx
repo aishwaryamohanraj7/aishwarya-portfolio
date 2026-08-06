@@ -28,7 +28,7 @@ export default function Hero() {
         />
       ))}
 
-      <div className="relative max-w-7xl mx-auto px-8 lg:px-12 pt-36 pb-24">
+      <div className="relative mx-auto max-w-7xl mx-auto px-8 lg:px-12 pt-36 pb-24">
 
         <div className="grid lg:grid-cols-2 gap-20 items-center">
 
