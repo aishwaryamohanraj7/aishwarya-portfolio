@@ -73,7 +73,7 @@ export default function About() {
         />
       ))}
 
-      <div className="relative max-w-7xl mx-auto px-8">
+      <div className="mx-auto max-w-7xl mx-auto px-8">
 
         {/* Header */}
 
