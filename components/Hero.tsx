@@ -121,7 +121,7 @@ export default function Hero() {
                             <div className="group rounded-3xl border border-white/10 bg-white/5 backdrop-blur-xl p-6 text-center transition-all duration-300 hover:-translate-y-2 hover:border-cyan-400 hover:shadow-2xl hover:shadow-cyan-500/20">
 
                 <h3 className="text-5xl font-black text-cyan-400 group-hover:scale-110 transition">
-                  4+
+                  14+
                 </h3>
 
                 <p className="mt-3 text-slate-300">
@@ -133,7 +133,7 @@ export default function Hero() {
               <div className="group rounded-3xl border border-white/10 bg-white/5 backdrop-blur-xl p-6 text-center transition-all duration-300 hover:-translate-y-2 hover:border-cyan-400 hover:shadow-2xl hover:shadow-cyan-500/20">
 
                 <h3 className="text-5xl font-black text-cyan-400 group-hover:scale-110 transition">
-                  15+
+                  3+
                 </h3>
 
                 <p className="mt-3 text-slate-300">
