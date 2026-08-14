@@ -153,7 +153,7 @@ export default function Projects() {
   <div className="flex gap-5 mt-10">
 
     <a
-      href="https://pages.github.iu.edu/Aismohan/Project-Health-Info-Standards-Group-Two/website/index.html"
+      href="https://aishwaryamohanraj7.github.io/Project-Health-Info-Standards-Group-Two/website/index.html"
       target="_blank"
       rel="noopener noreferrer"
       className="px-6 py-3 rounded-xl bg-blue-600 text-white hover:bg-blue-700 transition"
@@ -162,7 +162,7 @@ export default function Projects() {
     </a>
 
     <a
-      href="https://github.com/aishwaryamohanraj7/groupprojectthiswebsite"
+      href="https://github.com/aishwaryamohanraj7"
       target="_blank"
       rel="noopener noreferrer"
       className="px-6 py-3 rounded-xl border border-cyan-400 text-cyan-300 hover:bg-cyan-500/10 transition"
