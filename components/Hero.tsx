@@ -235,7 +235,7 @@ export default function Hero() {
               <div className="absolute right-[-40px] top-[58%] rounded-2xl border border-cyan-500/30 bg-white/5 backdrop-blur-xl px-6 py-4 shadow-xl transition-all duration-300 hover:scale-105">
 
                 <h4 className="font-bold text-cyan-300">
-                  EMR
+                  Tableau
                 </h4>
 
               </div>
