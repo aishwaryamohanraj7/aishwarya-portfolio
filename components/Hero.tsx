@@ -87,7 +87,7 @@ export default function Hero() {
 
             </p>
 
-            <p className="mt-8 max-w-xl text-lg leading-9 text-slate-400">
+            <p className="mt-8 max-w-lg mx-auto lg:mx-0 text-base sm:text-lg leading-8 text-slate-400">
 
               Passionate about leveraging healthcare data, artificial
               intelligence, interoperability standards, and biomedical
