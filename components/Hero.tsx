@@ -34,7 +34,7 @@ export default function Hero() {
 
          {/* ================= LEFT ================= */}
 
-<div className="order-2 lg:order-1 text-center lg:text-left">
+<div className="order-1 lg:order-1 text-center lg:text-left">
 
   {/* Status Badge */}
   
@@ -161,17 +161,16 @@ export default function Hero() {
 
           {/* ================= RIGHT ================= */}
 
-          <div className="hidden lg:flex justify-center">
+          <div className="flex justify-center lg:justify-center mt-8 lg:mt-0">
 
-            <div className="relative w-[260px] h-[260px] sm:w-[340px] sm:h-[340px] lg:w-[520px] lg:h-[520px]">
-
+            <div className="relative w-[180px] h-[180px] sm:w-[260px] sm:h-[260px] lg:w-[520px] lg:h-[520px]">
               {/* Main Glow */}
 
-              <div className="hidden lg:block absolute inset-0 rounded-full bg-gradient-to-r from-cyan-500 via-blue-500 to-violet-500 blur-3xl opacity-30 animate-pulse"></div>
+              <div className="lg:block absolute inset-0 rounded-full bg-gradient-to-r from-cyan-500 via-blue-500 to-violet-500 blur-3xl opacity-30 animate-pulse"></div>
 
               {/* Main Circle */}
 
-              <div className="hidden lg:block absolute inset-10 rounded-full border border-cyan-400/30 bg-white/5 backdrop-blur-xl flex items-center justify-center shadow-[0_0_60px_rgba(34,211,238,0.25)]">
+              <div className="hidden lg:block absolute inset-6 rounded-full border border-cyan-400/30 bg-white/5 backdrop-blur-xl flex items-center justify-center shadow-[0_0_60px_rgba(34,211,238,0.25)]">
 
                 <div className="text-center">
 
