@@ -117,7 +117,7 @@ export default function Hero() {
 
             {/* Statistics */}
 
-            <div className="mt-14 grid grid-cols-3 gap-5">
+            <div className="mt-14 grid grid-cols-1 sm:grid-cols-3 gap-5">
                             <div className="group rounded-3xl border border-white/10 bg-white/5 backdrop-blur-xl p-6 text-center transition-all duration-300 hover:-translate-y-2 hover:border-cyan-400 hover:shadow-2xl hover:shadow-cyan-500/20">
 
                 <h3 className="text-5xl font-black text-cyan-400 group-hover:scale-110 transition">
@@ -162,7 +162,7 @@ export default function Hero() {
 
           <div className="order-1 lg:order-2 flex justify-center mb-12 lg:mb-0">
 
-            <div className="relative w-[520px] h-[520px]">
+            <div className="relative w-[280px] h-[280px] sm:w-[380px] sm:h-[380px] lg:w-[520px] lg:h-[520px]">
 
               {/* Main Glow */}
 
