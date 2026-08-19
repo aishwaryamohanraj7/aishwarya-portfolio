@@ -28,14 +28,14 @@ export default function Hero() {
         />
       ))}
 
-      <div className="relative mx-auto max-w-7xl mx-auto px-8 lg:px-12 pt-36 pb-24">
+      <div className="relative mx-auto max-w-7xl px-6 sm:px-8 lg:px-12 pt-24 sm:pt-28 lg:pt-36 pb-16 lg:pb-24">
 
-        <div className="grid lg:grid-cols-2 gap-20 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-14 lg:gap-20 items-center">
 
           {/* ================= LEFT ================= */}
 
           <div>
-
+<div className="order-2 lg:order-1 text-center lg:text-left"></div>
             {/* Status Badge */}
 
             <div className="inline-flex items-center gap-4 rounded-full border border-cyan-500/30 bg-white/5 backdrop-blur-xl px-6 py-3">
@@ -160,7 +160,7 @@ export default function Hero() {
 
           {/* ================= RIGHT ================= */}
 
-          <div className="flex justify-center">
+          <div className="order-1 lg:order-2 flex justify-center mb-12 lg:mb-0">
 
             <div className="relative w-[520px] h-[520px]">
 
