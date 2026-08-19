@@ -37,6 +37,23 @@ export default function Hero() {
 <div className="order-2 lg:order-1 text-center lg:text-left">
 
   {/* Status Badge */}
+  <div className="lg:hidden flex justify-center my-10">
+
+  <div className="w-40 h-40 rounded-full bg-white/5 border border-cyan-500/30 backdrop-blur-xl flex items-center justify-center">
+
+    <div className="text-center">
+
+      <div className="text-5xl">🧬</div>
+
+      <p className="mt-2 text-cyan-300 font-semibold">
+        Healthcare AI
+      </p>
+
+    </div>
+
+  </div>
+
+</div>
 
             <div className="inline-flex items-center gap-4 rounded-full border border-cyan-500/30 bg-white/5 backdrop-blur-xl px-6 py-3">
 
@@ -160,7 +177,7 @@ export default function Hero() {
 
           {/* ================= RIGHT ================= */}
 
-          <div className="order-1 lg:order-2 flex justify-center mb-12 lg:mb-0">
+          <div className="hidden lg:flex justify-center">
 
             <div className="relative w-[260px] h-[260px] sm:w-[340px] sm:h-[340px] lg:w-[520px] lg:h-[520px]">
 
@@ -200,7 +217,7 @@ export default function Hero() {
 
               </div>
 
-              <div className="hidden lg:blockabsolute top-20 right-0 rounded-2xl border border-cyan-500/30 bg-white/5 backdrop-blur-xl px-6 py-4 shadow-xl transition-all duration-300 hover:scale-105">
+              <div className="hidden lg:block absolute top-20 right-0 rounded-2xl border border-cyan-500/30 bg-white/5 backdrop-blur-xl px-6 py-4 shadow-xl transition-all duration-300 hover:scale-105">
 
                 <h4 className="font-bold text-cyan-300">
                   FHIR
@@ -208,7 +225,7 @@ export default function Hero() {
 
               </div>
 
-              <div className="hidden lg:blockabsolute bottom-32 left-0 rounded-2xl border border-cyan-500/30 bg-white/5 backdrop-blur-xl px-6 py-4 shadow-xl transition-all duration-300 hover:scale-105">
+              <div className="hidden lg:block absolute bottom-32 left-0 rounded-2xl border border-cyan-500/30 bg-white/5 backdrop-blur-xl px-6 py-4 shadow-xl transition-all duration-300 hover:scale-105">
 
                 <h4 className="font-bold text-cyan-300">
                   Python
@@ -216,7 +233,7 @@ export default function Hero() {
 
               </div>
 
-              <div className="hidden lg:blockabsolute bottom-8 right-12 rounded-2xl border border-cyan-500/30 bg-white/5 backdrop-blur-xl px-6 py-4 shadow-xl transition-all duration-300 hover:scale-105">
+              <div className="hidden lg:block absolute bottom-8 right-12 rounded-2xl border border-cyan-500/30 bg-white/5 backdrop-blur-xl px-6 py-4 shadow-xl transition-all duration-300 hover:scale-105">
 
                 <h4 className="font-bold text-cyan-300">
                   SQL
@@ -302,8 +319,8 @@ export default function Hero() {
               </div>
 
               <div className="hidden lg:block absolute top-1/2 right-8 text-4xl opacity-70 animate-pulse">
-                💻
-              </div>
+  💻
+</div>
 
             </div>
 
@@ -313,7 +330,7 @@ export default function Hero() {
 
         {/* Scroll Indicator */}
 
-        <div className="mt-20 flex justify-center">
+        <div className="hidden lg:flex mt-20 justify-center">
 
           <a
             href="#about"
