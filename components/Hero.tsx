@@ -192,7 +192,7 @@ export default function Hero() {
 
               {/* Floating Skill Cards */}
 
-              <div className="absolute top-4 left-10 rounded-2xl border border-cyan-500/30 bg-white/5 backdrop-blur-xl px-6 py-4 shadow-xl transition-all duration-300 hover:scale-105">
+              <div className="hidden md:block absolute top-4 left-10 rounded-2xl border border-cyan-500/30 bg-white/5 backdrop-blur-xl px-6 py-4 shadow-xl transition-all duration-300 hover:scale-105">
 
                 <h4 className="font-bold text-cyan-300">
                   EHR
