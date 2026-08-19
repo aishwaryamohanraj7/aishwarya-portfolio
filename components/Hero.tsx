@@ -174,15 +174,15 @@ export default function Hero() {
 
                 <div className="text-center">
 
-                  <div className="text-7xl mb-5">
+                  <div className="text-5xl sm:text-6xl lg:text-7xl mb-4">
                     🧬
                   </div>
 
-                  <h3 className="text-3xl font-black text-white">
+                  <h3 className="text-2xl sm:text-3xl lg:text-3xl font-black text-white">
                     Healthcare AI
                   </h3>
 
-                  <p className="mt-3 text-cyan-300">
+                  <p className="mt-2 text-sm sm:text-base lg:text-lg text-cyan-300">
                     Data • Analytics • Research
                   </p>
 
