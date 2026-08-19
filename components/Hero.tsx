@@ -32,11 +32,11 @@ export default function Hero() {
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-14 lg:gap-20 items-center">
 
-          {/* ================= LEFT ================= */}
+         {/* ================= LEFT ================= */}
 
-          <div>
-<div className="order-2 lg:order-1 text-center lg:text-left"></div>
-            {/* Status Badge */}
+<div className="order-2 lg:order-1 text-center lg:text-left">
+
+  {/* Status Badge */}
 
             <div className="inline-flex items-center gap-4 rounded-full border border-cyan-500/30 bg-white/5 backdrop-blur-xl px-6 py-3">
 
@@ -96,11 +96,11 @@ export default function Hero() {
 
             {/* Buttons */}
 
-            <div className="mt-12 flex flex-wrap gap-5">
+            <div className="mt-12 flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
 
               <a
                 href="#projects"
-                className="rounded-2xl bg-cyan-500 px-8 py-4 font-semibold text-white transition-all duration-300 hover:scale-105 hover:bg-cyan-400 hover:shadow-2xl hover:shadow-cyan-500/30"
+                className="rounded-2xl bg-cyan-500 w-full sm:w-auto px-8 py-4 text-center font-semibold text-white transition-all duration-300 hover:scale-105 hover:bg-cyan-400 hover:shadow-2xl hover:shadow-cyan-500/30"
               >
                 Explore Projects
               </a>
@@ -108,7 +108,7 @@ export default function Hero() {
               <a
                 href="/resume/resume.pdf"
                 target="_blank"
-                className="rounded-2xl border border-white/10 bg-white/5 backdrop-blur-xl px-8 py-4 font-semibold text-white transition-all duration-300 hover:scale-105 hover:border-cyan-400 hover:bg-white/10"
+                className="rounded-2xl border border-white/10 bg-white/5 backdrop-blur-xl w-full sm:w-auto px-8 py-4 text-center font-semibold text-white transition-all duration-300 hover:scale-105 hover:border-cyan-400 hover:bg-white/10"
               >
                 Download Resume
               </a>
@@ -162,15 +162,15 @@ export default function Hero() {
 
           <div className="order-1 lg:order-2 flex justify-center mb-12 lg:mb-0">
 
-            <div className="relative w-[280px] h-[280px] sm:w-[380px] sm:h-[380px] lg:w-[520px] lg:h-[520px]">
+            <div className="relative w-[260px] h-[260px] sm:w-[340px] sm:h-[340px] lg:w-[520px] lg:h-[520px]">
 
               {/* Main Glow */}
 
-              <div className="absolute inset-0 rounded-full bg-gradient-to-r from-cyan-500 via-blue-500 to-violet-500 blur-3xl opacity-30 animate-pulse"></div>
+              <div className="hidden lg:block absolute inset-0 rounded-full bg-gradient-to-r from-cyan-500 via-blue-500 to-violet-500 blur-3xl opacity-30 animate-pulse"></div>
 
               {/* Main Circle */}
 
-              <div className="absolute inset-10 rounded-full border border-cyan-400/30 bg-white/5 backdrop-blur-xl flex items-center justify-center shadow-[0_0_60px_rgba(34,211,238,0.25)]">
+              <div className="hidden lg:block absolute inset-10 rounded-full border border-cyan-400/30 bg-white/5 backdrop-blur-xl flex items-center justify-center shadow-[0_0_60px_rgba(34,211,238,0.25)]">
 
                 <div className="text-center">
 
@@ -192,7 +192,7 @@ export default function Hero() {
 
               {/* Floating Skill Cards */}
 
-              <div className="absolute top-4 left-10 rounded-2xl border border-cyan-500/30 bg-white/5 backdrop-blur-xl px-6 py-4 shadow-xl transition-all duration-300 hover:scale-105">
+              <div className="hidden lg:block absolute top-4 left-10 rounded-2xl border border-cyan-500/30 bg-white/5 backdrop-blur-xl px-6 py-4 shadow-xl transition-all duration-300 hover:scale-105">
 
                 <h4 className="font-bold text-cyan-300">
                   EHR
@@ -200,7 +200,7 @@ export default function Hero() {
 
               </div>
 
-              <div className="absolute top-20 right-0 rounded-2xl border border-cyan-500/30 bg-white/5 backdrop-blur-xl px-6 py-4 shadow-xl transition-all duration-300 hover:scale-105">
+              <div className="hidden lg:blockabsolute top-20 right-0 rounded-2xl border border-cyan-500/30 bg-white/5 backdrop-blur-xl px-6 py-4 shadow-xl transition-all duration-300 hover:scale-105">
 
                 <h4 className="font-bold text-cyan-300">
                   FHIR
@@ -208,7 +208,7 @@ export default function Hero() {
 
               </div>
 
-              <div className="absolute bottom-32 left-0 rounded-2xl border border-cyan-500/30 bg-white/5 backdrop-blur-xl px-6 py-4 shadow-xl transition-all duration-300 hover:scale-105">
+              <div className="hidden lg:blockabsolute bottom-32 left-0 rounded-2xl border border-cyan-500/30 bg-white/5 backdrop-blur-xl px-6 py-4 shadow-xl transition-all duration-300 hover:scale-105">
 
                 <h4 className="font-bold text-cyan-300">
                   Python
@@ -216,7 +216,7 @@ export default function Hero() {
 
               </div>
 
-              <div className="absolute bottom-8 right-12 rounded-2xl border border-cyan-500/30 bg-white/5 backdrop-blur-xl px-6 py-4 shadow-xl transition-all duration-300 hover:scale-105">
+              <div className="hidden lg:blockabsolute bottom-8 right-12 rounded-2xl border border-cyan-500/30 bg-white/5 backdrop-blur-xl px-6 py-4 shadow-xl transition-all duration-300 hover:scale-105">
 
                 <h4 className="font-bold text-cyan-300">
                   SQL
@@ -224,7 +224,7 @@ export default function Hero() {
 
               </div>
 
-              <div className="absolute left-[-20px] top-1/2 rounded-2xl border border-cyan-500/30 bg-white/5 backdrop-blur-xl px-6 py-4 shadow-xl transition-all duration-300 hover:scale-105">
+              <div className="hidden lg:block absolute left-[-20px] top-1/2 rounded-2xl border border-cyan-500/30 bg-white/5 backdrop-blur-xl px-6 py-4 shadow-xl transition-all duration-300 hover:scale-105">
 
                 <h4 className="font-bold text-cyan-300">
                   EMR
@@ -232,7 +232,7 @@ export default function Hero() {
 
               </div>
 
-              <div className="absolute right-[-40px] top-[58%] rounded-2xl border border-cyan-500/30 bg-white/5 backdrop-blur-xl px-6 py-4 shadow-xl transition-all duration-300 hover:scale-105">
+              <div className="hidden lg:block absolute right-[-40px] top-[58%] rounded-2xl border border-cyan-500/30 bg-white/5 backdrop-blur-xl px-6 py-4 shadow-xl transition-all duration-300 hover:scale-105">
 
                 <h4 className="font-bold text-cyan-300">
                   Tableau
@@ -241,7 +241,7 @@ export default function Hero() {
               </div>
                             {/* Research Focus Card */}
 
-              <div className="absolute -bottom-8 -left-10 rounded-3xl border border-cyan-500/20 bg-white/5 backdrop-blur-xl px-7 py-6 shadow-2xl transition-all duration-300 hover:-translate-y-2 hover:border-cyan-400 hover:shadow-cyan-500/20">
+              <div className="hidden lg:block absolute -bottom-8 -left-10 rounded-3xl border border-cyan-500/20 bg-white/5 backdrop-blur-xl px-7 py-6 shadow-2xl transition-all duration-300 hover:-translate-y-2 hover:border-cyan-400 hover:shadow-cyan-500/20">
 
                 <p className="text-sm uppercase tracking-widest text-slate-400">
                   
@@ -259,7 +259,7 @@ export default function Hero() {
 
               {/* Expertise Card */}
 
-              <div className="absolute -top-8 -right-10 rounded-3xl border border-cyan-500/20 bg-white/5 backdrop-blur-xl px-7 py-6 shadow-2xl transition-all duration-300 hover:-translate-y-2 hover:border-cyan-400 hover:shadow-cyan-500/20">
+              <div className="hidden lg:block absolute -top-8 -right-10 rounded-3xl border border-cyan-500/20 bg-white/5 backdrop-blur-xl px-7 py-6 shadow-2xl transition-all duration-300 hover:-translate-y-2 hover:border-cyan-400 hover:shadow-cyan-500/20">
 
                 
 
@@ -289,19 +289,19 @@ export default function Hero() {
 
               {/* Floating Icons */}
 
-              <div className="absolute top-12 left-1/2 -translate-x-1/2 text-4xl opacity-70 animate-bounce">
+              <div className="hidden lg:block absolute top-12 left-1/2 -translate-x-1/2 text-4xl opacity-70 animate-bounce">
                 
               </div>
 
-              <div className="absolute bottom-16 left-20 text-4xl opacity-70 animate-pulse">
+              <div className="hidden lg:block absolute bottom-16 left-20 text-4xl opacity-70 animate-pulse">
                 📊
               </div>
 
-              <div className="absolute bottom-20 right-20 text-4xl opacity-70 animate-bounce">
+              <div className="hidden lg:block absolute bottom-20 right-20 text-4xl opacity-70 animate-bounce">
                 🤖
               </div>
 
-              <div className="absolute top-1/2 right-8 text-4xl opacity-70 animate-pulse">
+              <div className="hidden lg:block absolute top-1/2 right-8 text-4xl opacity-70 animate-pulse">
                 💻
               </div>
 
